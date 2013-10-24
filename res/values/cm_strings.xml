@@ -740,6 +740,9 @@
     <string name="screen_color_setting_vivid">Vivid</string>
     <string name="screen_color_setting_custom">Custom</string>
 
+    <!-- Advanced, Device specific (DeviceParts) settings  -->
+    <string name="advanced_settings_title">Advanced</string>
+
     <string name="settings_reset_button">Reset</string>
 
     <!-- Message when bluetooth dialog for pin entry is showing  when HIGH security enabled-->

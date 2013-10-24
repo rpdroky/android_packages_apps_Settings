@@ -91,6 +91,8 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     private static final String KEY_NOTIFICATION_LIGHT = "notification_light";
     private static final String KEY_BATTERY_LIGHT = "battery_light";
 
+    private static final String KEY_ADVANCED_DISPLAY_SETTINGS = "advanced_display_settings";
+
     private static final int DLG_GLOBAL_CHANGE_WARNING = 1;
 
     private FontDialogPreference mFontSizePref;
@@ -185,6 +187,9 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
                 mLiftToWakePreference = null;
             }
         }
+
+        Utils.updatePreferenceToSpecificActivityFromMetaDataOrRemove(getActivity(),
+                getPreferenceScreen(), KEY_ADVANCED_DISPLAY_SETTINGS);
 
         mDozePreference = (SwitchPreference) findPreference(KEY_DOZE);
         if (mDozePreference != null && isDozeAvailable(activity)) {
