@@ -19,7 +19,7 @@
   <plurals name="backlight_timeout_time">
     <item quantity="one"><xliff:g id="seconds">%d</xliff:g> sekunda</item>
     <item quantity="few"><xliff:g id="seconds">%d</xliff:g> sekunde</item>
-    <item quantity="other"><xliff:g id="seconds">%d</xliff:g> sekunde</item>
+    <item quantity="other"><xliff:g id="seconds">%d</xliff:g> sekundi</item>
   </plurals>
   <plurals name="app_ops_count">
     <item quantity="one">Jednom</item>
@@ -27,8 +27,8 @@
     <item quantity="other">%d puta</item>
   </plurals>
   <plurals name="qs_tiles_summary">
-    <item quantity="one">1 pločica konfigurirana</item>
-    <item quantity="few">%d pločice konfigurirane</item>
-    <item quantity="other">%d pločice konfigurirane</item>
+    <item quantity="one">1 pločica je podešena.</item>
+    <item quantity="few">%d pločice su podešene.</item>
+    <item quantity="other">%d pločica je podešeno.</item>
   </plurals>
 </resources>
